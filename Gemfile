@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '4.1.6'
 
 # Use mysql as the database for Active Record
-gem 'mysql2'
-
-#gem 'mini_racer', '~> 0.2.6'
+gem 'mysql2', '~> 0.3.10'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -19,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-#gem 'therubyracer', '~> 0.11.4'
+# gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -55,12 +52,13 @@ group :development, :test do
 end
 
 
+gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 gem 'will_paginate'
 gem "font-awesome-rails"
-gem 'newrelic_rpm'
 gem 'google-analytics-rails'
 
-#gem 'capistrano', '~> 3.4.0'
-#gem 'capistrano-rails', '~> 1.1'
-#gem 'capistrano-rvm'
+gem 'capistrano', '~> 3.4.0'
+gem 'capistrano-rails', '~> 1.1'
+gem 'capistrano-rvm'

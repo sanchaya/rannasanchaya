@@ -1,4 +1,3 @@
-<%= render 'layouts/poem_counts' %>
 <div class="vachana_sangraha_heading">
   <h1> <%= t :menu_brand_name %> </h1>
 </div>
@@ -9,7 +8,7 @@
       <div class="rand-vachana">
         <h3> <%= t :today_poem %> </h3>
         <p>
-          <%= raw @poem.poem_text.gsub(/\n/, '<br />') %>
+          <%= clean_poem @poem.poem_text %>
         </p>
         <span class="vachanakaara-name" style="margin-left:20%;"> --- <%= @poem.author.name %> </span>
       </div>

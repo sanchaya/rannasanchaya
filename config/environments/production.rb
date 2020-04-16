@@ -77,5 +77,5 @@ LanguageMining::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  GA.tracker = "UA-3727897-24"
+  GA.tracker = "UA-3727897-34"
 end

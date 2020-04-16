@@ -1,7 +1,1 @@
-development:
-  adapter: mysql2
-  encoding: utf8
-  database: ranna_sanchaya
-  pool: 5
-  username: rannasanchaya
-  password: Qazplm123!@# 
+/home/ranna/rails_apps/concord/shared/config/database.yml
